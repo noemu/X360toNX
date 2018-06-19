@@ -3,7 +3,7 @@ This code is a unification of wchill's SwitchInputEmulator https://github.com/wc
 
 Works with the Pro Micro 3.3v and the USB Host Shield Mini
 
-#Hardware
+# Hardware
 
 ![Layout](./images/Hardware.png)
 
@@ -29,10 +29,11 @@ Some error output:
 
 I've found a pro micro clone for 3.31€ and the Shield for 3.51€ on Ali Express. There are also some plug&play adapters for ~10€. So you save only ~4€ with this project. My Pro Micro 3.3v looked like this. 
 ![Layout](./images/s-l500.jpg)
+
 The Pins are the same, but the board is wider. So the Board doens't fit exatly under the Shield.
 
-#Building
-In Release Section are the already with Arduino compiled hex files.
+# Building
+In Release Section are some already with Arduino compiled hex files.
 
 The Problem with this project is, combining the LUFA library with the USB HOST SHIELD library. The Lufa library implements its own serial communication and that doens't work with the Arduino kernel.
 
